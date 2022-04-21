@@ -13,9 +13,9 @@ import (
 	"gopkg.in/mgo.v2/bson"
 )
 
-const (
-	database string = "cleancode-mongo"
-	password string = "ShfjzYf1tVakO1wsqlNPnDtHeHm6KQLe0awxb1vaHNsikrDJr1ut1LZoXJi3ZWKcRhpcxCUPVpD7bnJD2Oo70A=="
+var (
+	database string = os.Getenv("DB_NAME")
+	password string = os.Getenv("DB_PASSWORD")
 )
 
 type MongoStore struct {
