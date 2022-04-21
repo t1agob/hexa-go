@@ -9,6 +9,7 @@ I am an experienced developer in many languages but I have only started to use G
 I tried to look for recomendations and guidelines, and although there are a lot of examples out there I haven't found **ONE** that matches the other. Because of that I tried to simplify it and implement a folder structure that allows me to easily implement this pattern in all my microservices - independent of their complexity - and keep it readable for any (new) developer contributing to the service.
 
 ## Roadmap (missing features)
+- [ ] Implement capacity to update existing items
 - [ ] Unit Tests
 - [ ] More Adapters
   ...
