@@ -8,6 +8,7 @@ import (
 
 func main() {
 	store := store.NewMemoryStore()
+	// store := store.NewMongoStore()
 	domain := domain.NewProductService(store)
 	rest := api.NewRestAPI(domain)
 
